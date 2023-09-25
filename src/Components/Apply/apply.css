@@ -1,0 +1,37 @@
+.apply{
+    height: 90vh;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    height: 98%;
+    width: 50%;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 30px;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 3px solid gray;
+    border-right: 3px solid gray;
+    border-radius: 8px;
+}
+.formContainer button{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 4px;
+}
+.formContainer button:hover{
+  background-color: gray;
+  color: white;
+}

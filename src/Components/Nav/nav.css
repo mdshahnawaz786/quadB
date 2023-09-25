@@ -1,0 +1,21 @@
+.nav{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 90px;
+}
+
+.logoutBtn{
+    height: 35px;
+    width: 10%;
+    background-color: black;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 4px;
+    
+}

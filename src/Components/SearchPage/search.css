@@ -1,0 +1,44 @@
+
+.serach{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.serach input{
+    height: 35px;
+    width: 30%;
+    padding: 10px 30px;
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 4px;
+    outline: none;
+    color: white;
+}
+
+.serach button{
+    height: 35px;
+    width: 10%;
+    background-color: black;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 4px;
+    
+}
+.serach button:hover{
+   background-color: gray;
+   color: wheat;
+}
+
+
+.cardDiv{
+    min-height: 80vh;
+}
