@@ -17,6 +17,7 @@ const Jobcard = () => {
           return (
             <>
               <div className="cardContainer">
+                <h2>{ele.company}</h2>
                 <h2>{ele.jobRole}</h2>
                 <h3>{ele.aboutJob}</h3>
                 <p>{ele.disc}</p>
@@ -29,7 +30,7 @@ const Jobcard = () => {
             </>
           )
          })}
-        </> : <><h2>Loading</h2></>}
+        </> : <><h2>Search here 👆🏻</h2></>}
         
       </div>
   </>;
